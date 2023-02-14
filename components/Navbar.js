@@ -5,7 +5,7 @@ import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from "react-icons/ai";
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { Router, useRouter } from "next/router";
-
+import myLogo from "../public/assets/az-logo.png"
 
 const Navbar = ()=> {
     const [nav, setNav] = useState(false);
@@ -91,7 +91,7 @@ const Navbar = ()=> {
                 <div>
                     <div className="flex w-full items-center justify-between">
                     <Link href='/'>
-                        <Image src='/../public/assets/az-logo.png' alt='/' width='100' height='35'  />
+                        <Image src={myLogo} alt='/' width='100' height='35'  />
                     </Link>
                     <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                         <AiOutlineClose/>
