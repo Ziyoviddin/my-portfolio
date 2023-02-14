@@ -50,7 +50,7 @@ const Navbar = ()=> {
         className={shadow? "fixed w-full h-20 shadow-xl z-[100] bg-slate-50": "fixed w-full h-20  z-[100] bg-slate-50"}>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Link href='/'>
-                <Image src='/../public/assets/az-logo.png' alt='/' width='120' height='40' />
+                <Image src='../public/assets/az-logo.png' alt='/' width='120' height='40' />
                 </Link>
             <div>
                 <ul style={{color: `${linkColor}`}} className="hidden md:flex">
