@@ -9,7 +9,8 @@ import { FaGithub, FaLinkedinIn} from 'react-icons/fa'
 
 const Contacts = () => {
 
-    function handleSendMessage(){
+    function handleSendMessage(e){
+        e.preventDefault()
         alert("I'm working on adding this feature, please connect with me via other options.")
     }
 
