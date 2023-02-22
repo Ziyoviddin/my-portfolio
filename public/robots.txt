@@ -2,4 +2,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: http://www.ziyoviddin.me/sitemap.xml
+Sitemap: http://ziyoviddin.me/sitemap.xml
